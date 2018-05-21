@@ -42,7 +42,7 @@ def sum_array(array)
 end
 
 def add_s(str)
-  array.each_with_index.collect { |word, index|
+  str.each_with_index.collect { |word, index|
     if word = str[1]
       word
     else
