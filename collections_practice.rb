@@ -43,7 +43,7 @@ end
 
 def add_s(str)
   str.each_with_index.collect { |word, index| 
-     word << "s" if index != 1
+     index != 1 ? word << "s" : word
   }
 end
 
